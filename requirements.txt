@@ -1,0 +1,12 @@
+torch
+diffusers[torch]
+transformers
+Pillow
+opencv-python
+numpy
+# Para segmentación de ropa (ClothSeg)
+git+https://github.com/huggingface/transformers.git
+# Para notebooks y experimentación
+notebook
+# (Opcional) Si usas segment-anything o SAM, añade:
+# segment-anything
